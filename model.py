@@ -26,11 +26,9 @@ model.fit(X_train, y_train)
 # Save the model as a pickle in a file
 joblib.dump(model, 'iris_trained_model.pkl')
 
-
-
-#load model
-with open('iris_trained_model.pkl', 'rb') as f:
-       model = joblib.load(f)
+# #load model
+# with open('iris_trained_model.pkl', 'rb') as f:
+#        model = joblib.load(f)
 
 #prediction
 print(X_test)
