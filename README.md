@@ -1,2 +1,2 @@
 # Iris-classifier-API
-Deploying Iris classififcation model using Heroku.
+Deploying Iris classification model using Heroku.
