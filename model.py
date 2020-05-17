@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn import neighbors
+from sklearn.metrics import accuracy_score
 from sklearn.externals import joblib
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
